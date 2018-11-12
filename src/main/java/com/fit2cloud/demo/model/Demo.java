@@ -1,9 +1,11 @@
 package com.fit2cloud.demo.model;
 
 import io.swagger.annotations.ApiModelProperty;
+
 import java.io.Serializable;
 
 public class Demo implements Serializable {
+
     @ApiModelProperty("ID")
     private String id;
 
@@ -26,7 +28,6 @@ public class Demo implements Serializable {
      * This method returns the value of the database column demo.id
      *
      * @return the value of demo.id
-     *
      * @mbg.generated
      */
     public String getId() {
@@ -38,7 +39,6 @@ public class Demo implements Serializable {
      * This method sets the value of the database column demo.id
      *
      * @param id the value for demo.id
-     *
      * @mbg.generated
      */
     public void setId(String id) {
@@ -50,7 +50,6 @@ public class Demo implements Serializable {
      * This method returns the value of the database column demo.name
      *
      * @return the value of demo.name
-     *
      * @mbg.generated
      */
     public String getName() {
@@ -62,7 +61,6 @@ public class Demo implements Serializable {
      * This method sets the value of the database column demo.name
      *
      * @param name the value for demo.name
-     *
      * @mbg.generated
      */
     public void setName(String name) {
@@ -74,7 +72,6 @@ public class Demo implements Serializable {
      * This method returns the value of the database column demo.create_time
      *
      * @return the value of demo.create_time
-     *
      * @mbg.generated
      */
     public Long getCreateTime() {
@@ -86,10 +83,10 @@ public class Demo implements Serializable {
      * This method sets the value of the database column demo.create_time
      *
      * @param createTime the value for demo.create_time
-     *
      * @mbg.generated
      */
     public void setCreateTime(Long createTime) {
         this.createTime = createTime;
     }
+
 }

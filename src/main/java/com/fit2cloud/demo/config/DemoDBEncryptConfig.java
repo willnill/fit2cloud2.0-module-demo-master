@@ -12,8 +12,10 @@ import java.util.List;
  */
 @Component
 public class DemoDBEncryptConfig implements DBEncryptConfig {
+
     @Override
     public List<EncryptConfig> encryptConfig() {
         return new ArrayList<>();
     }
+
 }

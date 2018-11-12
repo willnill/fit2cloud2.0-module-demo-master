@@ -1,6 +1,5 @@
 package com.fit2cloud.demo.config;
 
-
 import com.fit2cloud.commons.server.security.SsoFilter;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -41,4 +40,5 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/**", "sso, authc");
         return shiroFilterFactoryBean;
     }
+
 }
