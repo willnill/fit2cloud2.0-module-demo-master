@@ -11,7 +11,7 @@ var MENUS_TEST = {
     icon: "shopping_cart",
     menus: [
         {
-            title: "仪表盘",
+            title: "仪表盘777",
             icon: "dashboard",
             name: "dashboard",
             url: "/dashboard",
