@@ -2,6 +2,20 @@
   "version": "2.0",
   "menu": [
     {
+      "order": 4,
+      "title": "测试666",
+      "icon": "account_box",
+      "url": "/dashboard",
+      "name": "dashboard",
+      "templateUrl": "project/html/demo/dashboard.html",
+      "requiredPermissions": [
+        {
+          "role": "ADMIN",
+          "logical": "OR",
+          "permissions": [
+            "DEMO:DASHBOARD"
+          ]
+        },{
       "order": 1,
       "title": "仪表盘666",
       "icon": "account_box",

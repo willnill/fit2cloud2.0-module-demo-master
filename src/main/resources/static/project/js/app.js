@@ -11,6 +11,12 @@ var MENUS_TEST = {
     icon: "shopping_cart",
     menus: [
         {
+            title: "测试777",
+            icon: "dashboard",
+            name: "dashboard",
+            url: "/dashboard",
+            templateUrl: "project/html/demo/dashboard.html" + '?_t=' + window.appversion
+        },{
             title: "仪表盘777",
             icon: "dashboard",
             name: "dashboard",
